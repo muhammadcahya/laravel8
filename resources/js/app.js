@@ -12,6 +12,7 @@ import router from './router'
 
 // PLUGINS
 import i18n from './plugins/vue-i18n'
+import vuetify from './plugins/vuetify'
 
 // Set this to false to prevent the production tip on Vue startup.
 Vue.config.productionTip = false
@@ -28,6 +29,7 @@ Vue.config.productionTip = false
 */
 export default new Vue({
     i18n,
+    vuetify,
     router,
     store,
     render: (h) => h(App)
